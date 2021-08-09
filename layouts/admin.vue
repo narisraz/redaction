@@ -51,8 +51,28 @@ export default {
         {
           icon: 'mdi-apps',
           title: 'Tâches',
-          to: '/task/list'
+          to: '/admin/task/list'
         },
+        {
+          icon: 'mdi-list-status',
+          title: 'Statuts',
+          to: '/admin/status/list'
+        },
+        {
+          icon: 'mdi-account-multiple-outline',
+          title: 'Utilisateurs',
+          to: '/admin/user/list'
+        },
+        {
+          icon: 'mdi-web',
+          title: 'Plateformes',
+          to: '/admin/platform/list'
+        },
+        {
+          icon: 'mdi-shield-account-outline',
+          title: 'Comptes',
+          to: '/admin/compte/list'
+        }
       ],
       miniVariant: true,
       title: 'Rédaction'

@@ -9,11 +9,14 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/firebase": "^7.6.1",
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
+    "firebase": "^8.8.1",
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/vuetify": "^1.11.2"
   }
 }
